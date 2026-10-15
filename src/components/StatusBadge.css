@@ -1,0 +1,12 @@
+.concluido {
+    color: rgb(0, 192, 0);
+}
+
+.emAndamento {
+    color: yellow;
+}
+
+.pendente {
+    color: orange;
+}
+

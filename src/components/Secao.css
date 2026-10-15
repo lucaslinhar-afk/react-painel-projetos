@@ -1,0 +1,20 @@
+.secao {
+  margin: 40px auto;
+  max-width: 1200px;
+  padding: 0 20px;
+}
+
+.secao h2 {
+  font-size: 1.8rem;
+  color: #ffffff;
+  margin-bottom: 24px;
+  border-left: 4px solid #4caf50;
+  padding-left: 12px;
+}
+
+.secao-conteudo {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+}

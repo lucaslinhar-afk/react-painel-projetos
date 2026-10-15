@@ -1,0 +1,100 @@
+/* Container dos cards */
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  justify-content: center;
+  padding: 40px 20px;
+  background: #0f0f0f;
+  min-height: 100vh;
+}
+
+/* Card individual */
+.card {
+  width: 280px;
+  min-height: 320px;
+  background: linear-gradient(145deg, #1a1a2e, #16213e);
+  border: 1px solid #2a2a4a;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 0;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+/* Efeito hover */
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
+  border-color: #4a4a6a;
+}
+
+/* Título */
+.card h2 {
+  font-size: 1.3rem;
+  color: #ffffff;
+  margin: 0;
+  font-weight: 600;
+}
+
+/* Descrição */
+.card p {
+  color: #b0b0c0;
+  font-size: 0.9rem;
+  line-height: 1.5;
+  margin: 0;
+}
+
+/* StatusBadge */
+.concluido {
+  color: #4caf50;
+  font-weight: 600;
+  background: rgba(76, 175, 80, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
+.emAndamento {
+  color: #2196f3;
+  font-weight: 600;
+  background: rgba(33, 150, 243, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
+.pendente {
+  color: #ff9800;
+  font-weight: 600;
+  background: rgba(255, 152, 0, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
+.planejamento {
+  color: #9c27b0;
+  font-weight: 600;
+  background: rgba(156, 39, 176, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
+
+.Erro {
+  color: #f44336;
+  font-weight: 600;
+  background: rgba(244, 67, 54, 0.1);
+  padding: 4px 12px;
+  border-radius: 20px;
+  display: inline-block;
+  font-size: 0.85rem;
+}
